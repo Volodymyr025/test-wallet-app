@@ -4,7 +4,7 @@ import { TransactionsList } from "./components/transactions-list/TransactionsLis
 
 function App() {
   return (
-    <div className="p-5 bg-gray-50 h-[100vh] w-full">
+    <div className="p-5 bg-gray-300 w-full">
       <Blocks />
       <h2 className="font-bold text-3xl">Latest Transactions</h2>
       <TransactionsList />
