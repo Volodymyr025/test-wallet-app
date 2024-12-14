@@ -1,0 +1,97 @@
+[
+  {
+    "id": 1,
+    "type": "Payment",
+    "amount": 200,
+    "name": "IKEA",
+    "description": "Furniture purchase",
+    "date": "2024-12-13",
+    "pending": true,
+    "user": "John Doe"
+  },
+  {
+    "id": 2,
+    "type": "Credit",
+    "amount": 50,
+    "name": "Target",
+    "description": "Grocery shopping",
+    "date": "2024-12-12",
+    "pending": false
+  },
+  {
+    "id": 3,
+    "type": "Credit",
+    "amount": 150,
+    "name": "Walmart",
+    "description": "Products shopping",
+    "date": "2024-12-10",
+    "pending": false
+  },
+  {
+    "id": 4,
+    "type": "Payment",
+    "amount": 100,
+    "name": "Amazon",
+    "description": "Electronics purchase",
+    "date": "2024-12-11",
+    "pending": false,
+    "user": "John Doe"
+  },
+  {
+    "id": 5,
+    "type": "Credit",
+    "amount": 300,
+    "name": "Paycheck",
+    "description": "Monthly salary",
+    "date": "2024-12-08",
+    "pending": false
+  },
+  {
+    "id": 6,
+    "type": "Payment",
+    "amount": 75,
+    "name": "Starbucks",
+    "description": "Coffee and snacks",
+    "date": "2024-12-07",
+    "pending": true,
+    "user": "Jane Smith"
+  },
+  {
+    "id": 7,
+    "type": "Payment",
+    "amount": 50,
+    "name": "Netflix",
+    "description": "Monthly subscription",
+    "date": "2024-12-06",
+    "pending": false,
+    "user": "Jane Smith"
+  },
+  {
+    "id": 8,
+    "type": "Credit",
+    "amount": 25,
+    "name": "Venmo",
+    "description": "Payment received from friend",
+    "date": "2024-12-05",
+    "pending": false
+  },
+  {
+    "id": 9,
+    "type": "Payment",
+    "amount": 500,
+    "name": "Best Buy",
+    "description": "Laptop purchase",
+    "date": "2024-12-03",
+    "pending": true,
+    "user": "John Doe"
+  },
+  {
+    "id": 10,
+    "type": "Credit",
+    "amount": 40,
+    "name": "Uber",
+    "description": "Refund for canceled trip",
+    "date": "2024-12-02",
+    "pending": false
+  }
+]
