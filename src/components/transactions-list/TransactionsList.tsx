@@ -73,7 +73,8 @@ export const TransactionsList = () => {
                         {data.description}
                       </section>
                       <section className="bg-gray-200 px-2 rounded-md h-fit">
-                        {((data.amount / 1500) * 100).toFixed(0) + "%"}
+                        {data.type !== "Payment" &&
+                          ((data.amount / 1500) * 100).toFixed(0) + "%"}
                       </section>
                     </div>
                     <p>
