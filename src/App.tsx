@@ -4,9 +4,9 @@ import { TransactionsList } from "./components/transactions-list/TransactionsLis
 
 function App() {
   return (
-    <div className="p-5 bg-gray-300 w-full">
+    <div className="p-5 bg-gray-300 w-full min-h-dvh">
       <Blocks />
-      <h2 className="font-bold text-3xl">Latest Transactions</h2>
+      <h2 className="font-bold text-3xl my-2">Latest Transactions</h2>
       <TransactionsList />
     </div>
   );

@@ -1,7 +1,8 @@
-export const CardBalance = () => {
-  const limit = 1500;
+const limit = 1500;
 
-  const balance = parseFloat((Math.random() * limit).toString());
+const balance = parseFloat((Math.random() * limit).toString());
+
+export const CardBalance = () => {
   return (
     <div className="bg-white p-2 rounded-md">
       <ul>
