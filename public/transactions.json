@@ -2,7 +2,7 @@
   {
     "id": 1,
     "type": "Payment",
-    "amount": 200,
+    "amount": 200.99,
     "name": "IKEA",
     "description": "Furniture purchase",
     "date": "2024-12-13",
@@ -12,7 +12,7 @@
   {
     "id": 2,
     "type": "Credit",
-    "amount": 50,
+    "amount": 50.55,
     "name": "Target",
     "description": "Grocery shopping",
     "date": "2024-12-12",
@@ -21,7 +21,7 @@
   {
     "id": 3,
     "type": "Credit",
-    "amount": 150,
+    "amount": 150.99,
     "name": "Walmart",
     "description": "Products shopping",
     "date": "2024-12-10",
@@ -49,7 +49,7 @@
   {
     "id": 6,
     "type": "Payment",
-    "amount": 75,
+    "amount": 75.4,
     "name": "Starbucks",
     "description": "Coffee and snacks",
     "date": "2024-12-07",

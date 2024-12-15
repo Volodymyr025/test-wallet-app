@@ -50,12 +50,12 @@ export const TransactionsList = () => {
   );
   return (
     <LoaderWrapper loader={loader}>
-      <ul className="bg-white p-3 rounded-lg">
+      <ul className="bg-white p-3 rounded-lg ">
         {transactions.map((data) => (
           <li key={data.id}>
             <Link to={`/transaction/${data.id}`}>
               <div className="flex gap-3 w-full my-2 items-center">
-                <div className="bg-blue-300 p-3 rounded-xl">
+                <div className="bg-black p-1.5 rounded-xl">
                   <AppleIcon />
                 </div>
 
@@ -63,14 +63,19 @@ export const TransactionsList = () => {
                   <section className="flex justify-between">
                     <h2 className="font-bold">{data.name}</h2>
                     <p>
-                      {data.type === "Payment" && "+"}${data.amount}
+                      {data.type === "Payment" && "+"}${data.amount.toFixed(2)}
                     </p>
                   </section>
                   <div className="text-gray-400">
-                    <p>
-                      {data.pending && "Pending - "}
-                      {data.description}
-                    </p>
+                    <div className="flex justify-between">
+                      <section>
+                        {data.pending && "Pending - "}
+                        {data.description}
+                      </section>
+                      <section className="bg-gray-200 px-2 rounded-md h-fit">
+                        {((data.amount / 1500) * 100).toFixed(0) + "%"}
+                      </section>
+                    </div>
                     <p>
                       {data.user && `${data.user} - `}
                       {formatDate(data.date)}
